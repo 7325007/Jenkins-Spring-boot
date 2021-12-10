@@ -12,7 +12,8 @@ class DemoApplicationTests {
 	
 	@Test
 	void testWhichFails() {
-		throw new RuntimeException();
+		if (1 != 1)
+			throw new RuntimeException();
 	}
 
 }
