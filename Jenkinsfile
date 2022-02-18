@@ -1,4 +1,4 @@
-def repo = ${argurl}
+
 pipeline {
   agent any
   stages {
