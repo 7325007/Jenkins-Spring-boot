@@ -4,7 +4,7 @@ pipeline {
   stages {
     stage ('spring boot') {
       steps {
-        git ${argurl}
+        git argurl
       }
     }
   }
